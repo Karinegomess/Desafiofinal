@@ -1,0 +1,109 @@
+{
+    "flex-layout.row#virtues":{
+    "children":["flex-layout.col#virtuesdescript"
+    ],
+    "props": {"blockClass": "virtues-descript"}
+    },
+    "flex-layout.col#virtuesdescript":{
+    "children":["flex-layout.col#virtuestitle", "flex-layout.row#virtuesimages", "flex-layout.row#textimages"
+    ],
+    "props": {"blockClass": "about-descript"}
+},
+    "flex-layout.col#virtuestitle":{
+        "children":["rich-text#virtuesdescript"
+        ],
+        "props": {"blockClass":"virtuesdescripttitle"}
+    },
+ 
+    //Por que a ACCT?
+    "rich-text#virtuesdescript":{
+        "props":{
+            "text": "**Por que a ACCT?**_",
+            "textPosition": "CENTER",
+            "font": "t-heading-4",
+            "blockClass":"virtuesdescripttitle"
+        }
+    },
+
+    //Imagens virtudes
+    "flex-layout.row#virtuesimages":{
+    "children":["image#virtuesimages", "image#virtuesimages2", "image#virtuesimages3", "image#virtuesimages4", "image#virtuesimages5"
+    ],
+    "props": {"blockClass": "virtues-descriptioncontent"}
+},
+"image#virtuesimages": {
+    "props":{
+        "src": "https://acct.global/wp-content/uploads/2020/10/icon_dashboard.svg",
+        "maxHeight": 100,
+        "blockClass": "virtues-description"
+    }
+},
+"image#virtuesimages2": {
+    "props":{
+        "src": " https://acct.global/wp-content/uploads/2020/09/icon_development.svg",
+        "maxHeight": 100,
+        "blockClass": "virtues-descriptioncontent"
+    }
+},
+"image#virtuesimages3": {
+    "props":{
+        "src": "https://acct.global/wp-content/uploads/2020/09/icon_integration.svg",
+        "maxHeight": 100,
+        "blockClass": "virtues-descriptioncontent"
+    }
+},
+"image#virtuesimages4": {
+    "props":{
+        "src": "https://acct.global/wp-content/uploads/2020/10/icon_customer-service.svg",
+        "maxHeight": 100,
+        "blockClass": "virtues-descriptioncontent"
+    }
+},
+"image#virtuesimages5": {
+    "props":{
+        "src": "https://acct.global/wp-content/uploads/2020/10/icon_shield.svg",
+        "maxHeight": 100,
+        "blockClass": "virtues-descriptioncontent"
+    }
+},
+"flex-layout.row#textimages":{
+    "children":[
+        "rich-text#textimages1", "rich-text#textimage2", "rich-text#textimage3", "rich-text#textimage4", "rich-text#textimage5"
+    ]
+},
+"rich-text#textimages1":{
+"props":{
+    "text": "**Engenharia de Dados de Alta Complexidade**",
+    "textAlignment": "CENTER",
+    "blockClass": "textimages"
+}    
+},
+"rich-text#textimage2":{
+    "props":{
+        "text": "**Habilidades Técnicas**",
+        "textPosition": "CENTER",
+        "blockClass": "textimages"
+    }    
+    },
+"rich-text#textimage3":{
+       "props":{
+          "text": "**Líder de Mercado em implementações VTEXIO**",
+          "textAlignment": "CENTER",
+          "blockClass": "textimages"
+}    
+},
+"rich-text#textimage4":{
+        "props":{
+           "text": "**Excelente Suporte ao Cliente**",
+           "textPosition": "CENTER",
+           "blockClass": "textimages"
+}    
+},
+"rich-text#textimage5":{
+    "props":{
+        "text": "**Segurança e Confiabilidade**",
+        "textPosition": "CENTER",
+        "blockClass": "textimages"
+    }    
+    }
+}
