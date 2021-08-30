@@ -1,0 +1,139 @@
+/* Header */
+.flexColChild--logo-box {
+  padding: 1.55rem 0rem 1.4rem 0.6rem;
+}
+
+.flexRowContent--header {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%) !important;
+}
+
+.flexRow--header {
+  background-color: #ffffff;
+}
+
+/* Home*/
+.flexRow--container-crrossel {
+  width: 100%;
+  object-fit: cover;
+}
+.flexColChild--home-text {
+  text-align: center;
+}
+
+.flexColChild--home-text {
+  width: inherit;
+}
+
+.flexCol--serviceshome01 {
+  background-image: url('assets/img/flip-delivery-squads.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+.flexCol--serviceshome02 {
+  background-image: url('assets/img/flip-growth.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+.flexCol--serviceshome03 {
+  background-image: url('assets/img/flip-exp-design.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+.flexCol--serviceshome04 {
+  background-image: url('assets/img/flip-tecnology.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+
+/* ABOUT*/
+/* About Inner Banner*/
+.flexRow--about-banner {
+  background-image: url('assets/img/cover-about-us.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 232px;
+  float: left;
+  width: 100%;
+}
+
+.flexRowContent--about-banner {
+  width: 38%;
+}
+
+/*Trusted By*/
+.flexRow--trusted-by-icons01,
+.flexRow--trusted-by-icons02 {
+  margin: 0rem 5rem;
+}
+
+.flexRow--trusted-by-icons02 {
+  margin-bottom: 5rem;
+}
+
+/*CONTACT*/
+/* Contact Inner Banner*/
+.flexRow--contact-banner {
+  background-image: url('assets/img/cover-contact.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 232px;
+  float: left;
+  width: 100%;
+}
+
+.flexRowContent--contact-banner {
+  width: 38%;
+}
+
+.flexRowContent--contact-grid {
+  padding: 10rem 0 0;
+}
+
+.flexCol--contact-grid01 {
+  text-align: right;
+  height: fit-content;
+}
+
+.flexColChild--contact-grid01 {
+  text-align: -webkit-right;
+}
+
+.flexCol--contact-grid02 {
+  align-items: center;
+  height: fit-content;
+}
+
+.flexCol--contact-grid03 {
+  text-align: left;
+  height: fit-content;
+}
+
+/* About Description */
+.flexRow--about-descript {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 55px;
+}
+
+/* Footer */
+.flexCol--social-networks {
+  margin-left: 2rem;
+}

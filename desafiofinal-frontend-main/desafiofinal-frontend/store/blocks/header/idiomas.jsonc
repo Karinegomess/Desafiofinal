@@ -1,0 +1,20 @@
+{
+  "vtex.menu@2.x:menu#languages": {
+    "children":["menu-item#pt"],
+    "props":{"blockClass": "languages"}
+  },
+  "menu-item#pt": {
+   "props": {
+     "id": "menu-item-pt",
+     "type": "custom",
+     "highlight": false,
+     "blockClass": "languages",
+     "itemProps": {
+       "type": "internal",
+       "href": "#",
+       "noFollow": false,
+       "tagTitle": "pt",
+       "text": "PT"
+     }
+   }}
+}
